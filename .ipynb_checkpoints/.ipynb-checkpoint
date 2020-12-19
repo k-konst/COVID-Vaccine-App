@@ -1578,6 +1578,7 @@
    "metadata": {},
    "outputs": [],
    "source": [
+    "# This code extracts the US cumulative case data from the cumulative case data file linked above.\n",
     "data = []\n",
     "with open('global_confirmed_data.rtf', newline = '') as csvfile:\n",
     "    lines = csv.reader(csvfile, delimiter = ',')\n",
@@ -1603,6 +1604,7 @@
    "metadata": {},
    "outputs": [],
    "source": [
+    "# This code extracts the US COVID-19 death data from the death data file linked above.\n",
     "data = []\n",
     "with open('global_death_data.rtf', newline = '') as csvfile:\n",
     "    lines = csv.reader(csvfile, delimiter = ',')\n",
@@ -1628,6 +1630,7 @@
    "metadata": {},
    "outputs": [],
    "source": [
+    "# This code extracts the US recovery data from the cumulative recovery data file linked above.\n",
     "data = []\n",
     "with open('global_recovered_data.rtf', newline = '') as csvfile:\n",
     "    lines = csv.reader(csvfile, delimiter = ',')\n",
